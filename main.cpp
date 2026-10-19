@@ -134,7 +134,7 @@ private: // Additional attribute for Physics Student
 public: // Constructor  
     Physics_Student() : Student()
     {
-        concentration = "Physics";
+        concentration = "BioPhysics";
     }
 
     ~Physics_Student() {}
@@ -202,7 +202,7 @@ int main()
     // Assign values to Physics Students
     physicsStudents[0]->setName("Frank", "Taylor");
     physicsStudents[0]->setGPA(3.9);
-    physicsStudents[0]->setConcentration("Physics");
+    physicsStudents[0]->setConcentration("BioPhysics");
 
     physicsStudents[1]->setName("Grace", "Hall");
     physicsStudents[1]->setGPA(3.6);
